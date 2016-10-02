@@ -142,7 +142,7 @@ a:hover, a:active {
 
 .jumbotron {
   margin: 0px auto;
-  padding: auto;
+  padding: 2px 2px 2px 2px;
   background: #7986CB;
   color: floralwhite;
 }
