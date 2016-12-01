@@ -77,7 +77,7 @@ a:hover, a:active {
    =========================== */
 
  #logo-img {
-  background: url('../images/logo.png') no-repeat;
+  background: url('../images/Siddhartha-logo_medium.png') no-repeat;
   width: 150px;
   height: 85px;
   margin: 10px 15px 10px 0;
@@ -141,9 +141,9 @@ a:hover, a:active {
    =========================== */
 
 .jumbotron {
-  margin: 0px auto;
-  padding: 2px 2px 2px 2px;
-  background: #7986CB;
+  margin: 0px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  /*background: #7986CB; */
   color: floralwhite;
 }
 
@@ -454,12 +454,20 @@ address{
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+	 #logo-img {
+  background: url('../images/Siddhartha-logo_small.png') no-repeat;
+  width: 150px;
+  height: 85px;
+}
 
 }
 
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+	.navbar-brand {
+  	font-size: 99% ;
+}
 
 }
 
